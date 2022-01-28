@@ -1,0 +1,82 @@
+body {
+    background-color: #efdde3;
+    height: 100%;
+    margin-top: 100px;
+}
+
+textarea:disabled {
+    background-color: white;
+    color:black;
+}
+
+.menu-panel {
+    height: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: silver;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.window {
+    width: 500px;
+}
+
+.title-bar {
+    background: linear-gradient(90deg,#6c003b,#ff71ac);
+}
+
+.title-bar-text {
+    margin-left: 5px;
+}
+
+.start-button {
+    height: 33px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: content-box;
+    padding: 0 8px;
+    margin-left: 2px;
+}
+
+.start-button-img {
+    height: 23px;
+    width: 23px;
+}
+
+.start-label {
+    font-weight: 700;
+    font-size: 17px;
+    text-align: right;
+}
+
+.convex-separator {
+    border-left: 1px solid rgb(255,255,255);
+    border-top: 1px solid rgb(255,255,255);
+    border-right: 1px solid rgb(128,128,128);
+    border-bottom: 1px solid rgb(128,128,128);
+    background-color: #808080;
+    width: 1px;
+    height: 20px;
+    margin-left: 2px;
+}
+
+.concave-separator {
+    border-left: 1px solid rgb(128,128,128);
+    border-right: 1px solid rgb(255,255,255);
+    height: 30px;
+    margin-left: 2px;
+}
