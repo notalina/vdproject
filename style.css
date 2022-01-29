@@ -1,3 +1,5 @@
+html { overflow:  hidden; }
+
 body {
     background-color: #efdde3;
     height: 100%;
@@ -7,6 +9,9 @@ body {
 textarea:disabled {
     background-color: white;
     color:black;
+    line-height: 2;
+    text-align: left;
+    word-spacing: 2px;
 }
 
 .wrapper {
