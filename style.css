@@ -9,20 +9,6 @@ textarea:disabled {
     color:black;
 }
 
-.menu-panel {
-    height: 40px;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    background: silver;
-    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
-}
-
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -41,15 +27,27 @@ textarea:disabled {
     margin-left: 5px;
 }
 
+.menu-panel {
+    height: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: silver;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+}
+
 .start-button {
+    float: left;
     height: 33px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     box-sizing: content-box;
-    padding: 0 8px;
+    padding: 0px 8px;
     margin-left: 2px;
+    margin-top: 4px;
 }
 
 .start-button-img {
@@ -64,19 +62,59 @@ textarea:disabled {
 }
 
 .convex-separator {
+    float: left;
     border-left: 1px solid rgb(255,255,255);
     border-top: 1px solid rgb(255,255,255);
     border-right: 1px solid rgb(128,128,128);
     border-bottom: 1px solid rgb(128,128,128);
     background-color: #808080;
     width: 1px;
-    height: 20px;
+    height: 25px;
     margin-left: 2px;
+    margin-top: 7px;
 }
 
 .concave-separator {
+    float: left;
     border-left: 1px solid rgb(128,128,128);
     border-right: 1px solid rgb(255,255,255);
     height: 30px;
     margin-left: 2px;
+    margin-top: 5px;
+}
+
+.menu-panels-icon {
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.time-section {
+    float: right;
+}
+
+.time-tray {
+    float: right;
+    border-top: 1px solid rgb(128,128,128);
+    border-left: 1px solid rgb(128,128,128);
+    border-bottom: 1px solid rgb(255,255,255);
+    border-right: 1px solid rgb(255,255,255);
+    height: 27px;
+    width: 90px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.time-tray img {
+    margin: 5px;
+}
+
+.time-text {
+    font-family: "Pixelated MS Sans Serif",Arial;
+    font-size: 11px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 7px;
 }
